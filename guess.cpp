@@ -46,7 +46,7 @@ int main () {
 		{
 			cout << "Your guess is correct!  Huzzah!" << endl;
 		}
-	}  while ((guess != estimate) && (tries >= 3));
+	}  while ((guess != magicNumber) && (tries >= 3));
 
 
 	/* for(int x = 0; x < 3 && (guess != magicNumber); x++, tries--)
