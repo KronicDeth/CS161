@@ -42,11 +42,8 @@ int main () {
 		{
 			cout << "You guessed too high!" << endl;
 		}
-		else if (guess == magicNumber)
-		{
-			cout << "Your guess is correct!  Huzzah!" << endl;
-		}
-	}  while ((guess != magicNumber) && (tries >= 3));
+		tries--;
+	}  while ((guess != magicNumber) && (tries > 0));
 
 
 	/* for(int x = 0; x < 3 && (guess != magicNumber); x++, tries--)
@@ -54,11 +51,12 @@ int main () {
 	 *          tries++;
 	 *              } */
 
-
-	if(tries == 0)
+        if (guess == magicNumber) {
+		cout << "Your guess is correct!  Huzzah!" << endl;
+        } else {
 		cout << "Sorry, you lose.  :(" << endl;
-	cout << "The correct number was " << magicNumber << endl;
-
+		cout << "The correct number was " << magicNumber << endl;
+	}
 
 	return 0;
 }
