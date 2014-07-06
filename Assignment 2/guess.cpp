@@ -1,6 +1,6 @@
 // Regina Imhoff
 // Ecampus CS 161
-// Assigment #2
+// Assignment #2
 
 #include <iostream> // includes and statements section
 
