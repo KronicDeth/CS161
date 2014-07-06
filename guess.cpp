@@ -42,7 +42,7 @@ int main () {
 		{
 			cout << "You guessed too high!" << endl;
 		}
-		else if (guess = magicNumber)
+		else if (guess == magicNumber)
 		{
 			cout << "Your guess is correct!  Huzzah!" << endl;
 		}
