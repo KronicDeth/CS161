@@ -34,17 +34,15 @@ int main () {
 		cout << "What is your guess?" << endl;
 		cin >> guess;
 
-		if (guess < magicNumber);
-
+		if (guess < magicNumber)
 		{  	
 			cout << "You guessed too low!" << endl;
 		}   
-		else if (guess > magicNumber);
-
+		else if (guess > magicNumber)
 		{
 			cout << "You guessed too high!" << endl;
 		}
-		else if (guess = magicNumber);
+		else if (guess = magicNumber)
 		{
 			cout << "Your guess is correct!  Huzzah!" << endl;
 		}
