@@ -1,3 +1,7 @@
+// Regina Imhoff
+// Ecampus CS 161
+// Assigment #2
+
 #include <iostream> // includes and statements section
 
 using std::cin; // user input
